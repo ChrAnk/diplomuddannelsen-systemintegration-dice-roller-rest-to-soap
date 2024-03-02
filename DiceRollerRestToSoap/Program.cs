@@ -1,7 +1,5 @@
-using DiceRollerRESTToSoap.Input;
 using DiceRollerRESTToSoap.Output;
 using SoapCore;
-using System.Text.Json;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddSoapCore();
